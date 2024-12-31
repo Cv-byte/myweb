@@ -1,60 +1,117 @@
-<!DOCTYPE html5>
-<hmtl>
+<!DOCTYPE html>
+<html>
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="view-port" content="width=device-width, initial-scale=1.0">
     <title>MY PORTFOLIO</title>
+    <style>
+        body{
+            background-color:brown;
+            font-family:Arial, Helvetica, sans-serif;
+            padding:0px;
+            margin:0px;
+        }
+        header, footer{
+            background-color:lightcoral;
+            color:ivory;
+            
+            text-align:center;
+        }
+        nav a{
+            margin:0 15px;
+            color:white;
+            display:inline;
+        }
+        nav a:hover{
+            background-color:coral;
+            color:ghostwhite;
+            text-decoration:underline;
+        }
+        div{
+            padding:0;
+            max-width:800px;
+            margin:auto;
+        }
+        ul{
+            padding:0px;
+        }
+        ul li{
+            margin:10px 0;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Home Page</h1>
-    <h2>Hi, I'm CVA , a passionate Web Developer.</h2>
-    <h3>Transforming ideas into functional, beautiful web experiences.</h3>
-    <p>I'm a first-year BE CSE student at Park College of Engineering and Technology.I specialise in web development, combining creativity and coding to build impactful websites and applications.</p>
-    <p>View My Projects</p>
-    <p>Contact Me</p>
-
-    <h1>About Me</h1>
-    <img>
-    <q>I'm CVA, a self-taught web developer with a strong foundation in HTML,CSS,JavaScript and Python.I'm commited to continuous learning and aim to specialise in full-stack development.</q>
-    <h3>Skills :</h3>
-    <ul>
-        <li><strong>Front-End : </strong>HTML, CSS, JavaScript.</li>
-        <li><strong>Back-End : </strong>Node.js, Express.js.</li>
-        <li><strong>Tools : </strong>Git, GitHub, VS Code, Linux.</li>
-
-    </ul>
-    <h3>Hobbies : </h3>
-    <q>When I'm not coding, I enjoy exploring ethical hacking and automation.</q>
-    
-    <h1>Projects : </h1>
-
-    <h1>Contact Me</h1>
-    <ul>
-        <li>email : </li>
-        <li>linkedin : </li>
-        <li>github : </li>
-        <li>phone : </li>
-    </ul>
-
-    <h3>Form : </h3>
-
-    <h3>Resume Section : </h3>
-    <p>Download my resume to know more about my skills and experiences.</p>
-
-    <footer>
+    <header>MY PORTFOLIO</header>
+    <nav>
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
-        <p>Social media icons : </p>
+        <a href="#projects">Projects</a>
+    </nav>
+
+
+    <div id="home">
+        <h1>Home Page</h1>
+        <h2>Hi, I'm CVA , a passionate Web Developer.</h2>
+        <h3>Transforming ideas into functional, beautiful web experiences.</h3>
+        <p>I'm a first-year BE CSE student at Park College of Engineering and Technology.I specialise in web
+            development, combining creativity and coding to build impactful websites and applications.</p>
+        <p>View My Projects</p>
+        <p>Contact Me</p>
+    </div>
+
+    <div id="about">
+        <h1>About Me</h1>
+        <img>
+        <p>I'm CVA, a self-taught web developer with a strong foundation in HTML,CSS,JavaScript and Python.I'm commited
+            to continuous learning and aim to specialise in full-stack development.</p>
+        <h3>Skills :</h3>
         <ul>
-            <li>linkedin : </li>
-            <li>github : </li>
-            <li>instagram : </li>
+            <li><strong>Front-End : </strong>HTML, CSS, JavaScript.</li>
+            <li><strong>Back-End : </strong>Node.js, Express.js.</li>
+            <li><strong>Tools : </strong>Git, GitHub, VS Code, Linux.</li>
 
         </ul>
-        <p>2024 CVA.All rights reserved.</p>
+        <h3>Hobbies : </h3>
+        <p>When I'm not coding, I enjoy exploring ethical hacking and automation.</p>
+    </div>
+
+    <div id="projects">
+        <h1>Projects : </h1>
+    </div>
+
+    <div id="contact">
+        <h1>Contact Me</h1>
+        <ul>
+            <li>email : </li>
+            <li>linkedin : </li>
+            <li>github : </li>
+            <li>phone : </li>
+        </ul>
+
+        <h3>Form : </h3>
+
+        <h3>Resume Section : </h3>
+        <p>Download my resume to know more about my skills and experiences.</p>
+    </div>
+
+    <footer>
+
+        <div id="footer">
+            <p>Social media icons : </p>
+            <ul>
+                <li>linkedin : </li>
+                <li>github : </li>
+                <li>instagram : </li>
+
+            </ul>
+            <p>2024 CVA.All rights reserved.</p>
+        </div>
     </footer>
 
 </body>
 
 
-</hmtl>
+</html>
