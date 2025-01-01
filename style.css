@@ -1,0 +1,42 @@
+body {
+    background-color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    color:aliceblue;
+}
+
+header,
+footer {
+    background-color: lightcoral;
+    color: ivory;
+
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    display: inline;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: coral;
+    color: ghostwhite;
+    text-decoration: underline;
+}
+
+div {
+    padding: 0;
+    max-width: 1200px;
+    margin: auto;
+}
+
+ul {
+    padding: 0px;
+}
+
+ul li {
+    margin: 10px 0;
+}
