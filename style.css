@@ -1,16 +1,16 @@
 body {
     background-color: brown;
+    color:aliceblue;
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
     margin: 0px;
-    color:aliceblue;
+    
 }
 
 header,
 footer {
     background-color: lightcoral;
     color: ivory;
-
     text-align: center;
 }
 
